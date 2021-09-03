@@ -1,0 +1,53 @@
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding:5% 1rem;
+    
+    
+}
+.App{
+    text-align:center;
+    color: #2C0E37;
+    max-width: 330px;
+    margin: auto;
+    background-color: #690375;
+    padding: 1rem;
+    border-radius: 10px;
+    border:none;
+    color:#DAA89B;
+    
+    
+
+
+    .check-button{
+        padding:0.5rem 1rem;
+        border: none;
+        border-radius: 10px;
+        margin-top: 1rem;
+        font-size: large;
+        background-color: #2C0E37;
+        color: white;
+        cursor: pointer;
+    }
+
+    input{
+        padding: 0.5rem 1rem;
+
+        border-radius: 10px;
+        border:none;
+    }
+    table{
+        margin: auto;
+        tr{
+            th,td{
+                border:1px solid #2C0E37;
+                background-color: #2C0E37;
+                color: white;
+            }
+        }
+    }
+}
